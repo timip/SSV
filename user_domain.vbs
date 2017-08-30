@@ -1,8 +1,8 @@
 '==========================================================================
-'	Name:		SAT
-'	Section:	win.user_ldap
-'	Author:		Tim IP
-'	Build:		20131009A
+'	Name:		SSV
+'	Section:	win.user_domain
+'	Author:		Tim Ip
+'	Build:		3.20170830B
 '==========================================================================
 
 strComputer="."
