@@ -1,0 +1,3 @@
+(( addr.src notin '138.202.0.0/16' ) and (addr.src notin '10.0.0.0/8') and (addr.src notin '172.16.0.0/12') and (addr.src notin '192.168.0.0/16')) and (((proto eq tcp) and ((port.dst eq 22) or (port.dst eq 23) or (port.dst eq 139) or (port.dst eq 445) or (port.dst eq 3389) or (port.dst eq 5900) or (port.dst eq 6000))) or ((proto eq udp) and ((port.dst eq 137) or (port.dst eq 138)))) and (action eq allow)
+
+([Non-server networks]) and (((proto eq tcp) and ((port.dst eq 22) or (port.dst eq 23) or (port.dst eq 139) or (port.dst eq 445) or (port.dst eq 3389) or (port.dst eq 5900) or (port.dst eq 6000))) or ((proto eq udp) and ((port.dst eq 137) or (port.dst eq 138)))) and (action eq allow)
